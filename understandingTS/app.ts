@@ -1,27 +1,5 @@
-function add(n1: number, n2: number): number {
-  return n1 + n2;
+let userInput: unknown;
+let userName: string;
+if (typeof userInput === 'string') {
+    userName = userInput;
 }
-
-function printResult(num: number): void {
-  console.log("Result...: " + num);
-}
-
-function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
-    const result = n1 + n2;
-    cb(result);
-}
-
-printResult(add(5, 12));
-
-// let someValue: undefined; --> never use undefined as type of a function
-
-// let combinedValues: Function;
-let combinedValues: (a: number, b: number) => number;
-
-combinedValues = add;
-console.log(combinedValues(8, 70));
-
-addAndHandle(10, 20, (result) => {
-    console.log(result);
-    
-});
