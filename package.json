@@ -1,0 +1,19 @@
+{
+  "name": "exploring-ts",
+  "version": "1.0.0",
+  "description": "[x] TypeScript basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarAmbients/Exploring-TS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarAmbients/Exploring-TS/issues"
+  },
+  "homepage": "https://github.com/StarAmbients/Exploring-TS#readme"
+}
