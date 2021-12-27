@@ -100,8 +100,8 @@
   },
   "exclude": [
     "node_modules", // would be the default
-    "basics.ts",
-    "functions.ts",
+    "src/basics.ts",
+    "src/functions.ts",
     "src/objs-arrays-enums.ts",
     "src/union-aliases.ts"
     // *.dev.ts or **/*.dev.ts (any folder) or node_modules (specific folder) DSR

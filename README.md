@@ -97,3 +97,5 @@ Strict Compilation Options
 Code Quality Options
 
 Debugging with Visual Studio Code
+
+DSR: "Thank you to Maximilian Schwarzmüller, TypeScript Course for Beginners 2021 - Learn TypeScript from Scratch!". Here, I will be adding more practical exercices from another inspiring sources and from my own coding needs.
